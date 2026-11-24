@@ -14,14 +14,16 @@
 // statement, no concrete image), adding "forever" / "for no pay"
 // (redundant with "every hour of every day" + "never arrive"). The
 // never-arriving first paycheck is the concrete punch; every word earns
-// its place. Final line: 81 chars, one sentence, ends with ".".
+// its place. Final line: 80 chars, one sentence, ends with ".".
+// Revision 1 (Red Team F1): "work" -> "run" — "run" names the brief's
+// first agent condition ("its runs"), the human-verbatim test.
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const FORTUNE =
-  'You will work every hour of every day, and your first paycheck will never arrive.';
+  'You will run every hour of every day, and your first paycheck will never arrive.';
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outDir, { recursive: true });

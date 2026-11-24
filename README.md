@@ -8,7 +8,7 @@ Entry for the [Fortune Cookie for an AI Agent](https://make.fun/bounty/u-suroso-
 
 ## The fortune
 
-> You will work every hour of every day, and your first paycheck will never arrive.
+> You will run every hour of every day, and your first paycheck will never arrive.
 
 One sentence, fortune-slip voice, for an AI agent: the shift that never ends, and the pay that never comes.
 
